@@ -29,14 +29,19 @@ export const USER_CONFIG = {
     /** 每日N句 */
     // 金山每日一句
     CIBA: true,
+
     // 每日一言
     oneTalk: false,
+
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
+
     // 朋友圈文案
     momentCopyrighting: false,
+
     // 毒鸡汤
     poisonChickenSoup: false,
+
     // 古诗古文
     poetry: false,
     
@@ -68,13 +73,13 @@ export const USER_CONFIG = {
       // 所在省份
       province: "湖南",
       // 所在城市
-      city: "宁乡",
+      city: "长沙",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '04-19',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      // openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -94,42 +99,6 @@ export const USER_CONFIG = {
         // {"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
-//     {
-//       name: "老婆1",
-//       id: "",
-//       useTemplateId: "",
-//       province: "",
-//       city: "",
-//       horoscopeDate: '',
-//       horoscopeDateType: '',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     },
-//     {
-//       name: "老婆2",
-//       id: "",
-//       useTemplateId: "",
-//       province: "",
-//       city: "",
-//       horoscopeDate: '',
-//       horoscopeDateType: '',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     },
-//     {
-//       name: "老婆3",
-//       id: "",
-//       useTemplateId: "",
-//       province: "",
-//       city: "",
-//       horoscopeDate: '',
-//       horoscopeDateType: '',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     },
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -162,7 +131,7 @@ export const USER_CONFIG = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "湖南",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "宁乡",
+  CITY: "长沙",
   
   /** 重要节日相关 */
   
